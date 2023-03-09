@@ -169,3 +169,114 @@ body{
     color: hsl(228, 45%, 44%);
     font-size: 11px; 
 }
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        height: 60%;
+        border-radius: 20px;
+        background-color: hsl(0, 0%, 100%) ;
+        transform: translate(-50%, -50%);
+        
+    }
+
+    .grid-cont {
+        display: grid;
+        grid-template-columns: 10vw 10vw 10vw;
+        grid-template-rows: 5vh 5vh;
+        grid-gap: 7px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .container {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+        height: 60%;
+        border-radius: 20px;
+        background-color: hsl(0, 0%, 100%) ;
+        transform: translate(-50%, -50%);
+        
+    }
+        
+    .grid-cont {
+        display: grid;
+        grid-template-columns: 12vw 12vw 12vw;
+        grid-template-rows: 5vh 5vh;
+        grid-gap: 7px;
+    }
+
+
+}
+
+@media only screen and (max-width: 500px) {
+    .body {
+        max-width: 100vw;
+        max-height: 100vh;
+    }
+    .container {
+        position: relative;
+        top: 50%;
+        left: 48.5%;
+        height: 95vh;
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        padding-top: 3vh;
+        transform: translate(-50%, -50%
+        );
+    }
+        
+    .left-cont {
+        width: 90%;
+        height: 50%;
+        padding: 0 3vw 0;
+    }
+
+        
+    .grid-cont {
+        display: grid;
+        grid-template-columns: 38vw 38vw ;
+        grid-template-rows: 6vh 6vh 6vh;
+        grid-gap: 10px;
+    }
+
+    .select-tip {
+        margin-top: 2vh ;
+    }
+
+    .right-cont {
+        width:85%;
+        margin-left: 3vw;
+        padding: 0 2vh 0;
+    }
+
+    .left-hand {
+        margin-top: 0;
+    }
+    .upper-right-cont{
+        margin-top: 3vh;
+    }
+    .lower-right-cont {
+        margin-top: 0;
+    }
+    .btn {
+        margin-top: 6vh;
+    }
+    .attribution {
+        position: relative;
+        top: 3vh;
+        margin-top: 0;
+    }
+
+}
