@@ -67,9 +67,12 @@ body{
 }
 
 .right-cont {
-    border: 1px solid yellow;
+    background-color: hsl(183, 100%, 15%);
     width: 50%;
-    height: 100%;
+    height: 87%;
+    margin: 4vh 4vh 4vh 0;
+    padding: 0 2vw;
+    border-radius: 10px;
 }
 
 .left-button {
@@ -82,6 +85,10 @@ body{
     cursor: pointer;
 }
 
+.left-button:hover {
+    background-color: hsl(185, 41%, 84%);
+}
+
 .custom-button {
     background-color:  hsl(189, 41%, 97%);
     border: none;
@@ -89,20 +96,76 @@ body{
     color: hsl(186, 14%, 43%);
     font-size: 0.55rem;
     font-weight: 700;
+    text-align: right;
+    padding-right: 0.5rem;
+}
+
+.upper-right-cont  {
+    margin: 7vh 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lower-right-cont {
+    margin: 3vh 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-hand {
+    font-size: 0.55rem;
+    color: hsl(185, 41%, 84%);
+    width: 30%;
+    height: 10vh;
+}
+
+.right-hand {
+    font-size: 1.5rem;
+    color: hsl(172, 67%, 45%);
+}
+
+.btn {
+    margin-top: 8.5vh;
+    width: 100%;
+    height: 5.5vh;
+    background-color: hsl(172, 67%, 45%);
+    border: none;
+    border-radius: 3px;
     cursor: pointer;
 }
 
+.btn:hover {
+    background-color: hsl(185, 41%, 84%);
+}
+
+.for-white {
+    color: #ffffff;
+    font-size: 0.55rem;
+}
 
 
-
-
-
-
-
+.wrong:hover {
+    width: 100%;
+    height: 6vh;
+    text-align: right;
+    padding-right: 10px;
+    background-color: hsl(189, 41%, 97%);
+    border: none;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    cursor: pointer;
+    outline: 2px solid red;
+}
 
 .attribution { 
-    font-size: 11px; text-align: center; 
+    position: relative;
+    top: 35vh;
+    font-size: 11px; 
+    text-align: center; 
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(228, 45%, 44%);
+    font-size: 11px; 
 }
